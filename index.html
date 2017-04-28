@@ -79,7 +79,7 @@
   <!-- End of Categories -->
     <section id="prices" class="section">
       <h1>New Stock</h1>
-      <h3>Choose what you want to purchase</h3>
+      <h3>What would you like to buy?</h3>
         <div class="row">
           <div class="col-md-4">
           <div class="thumbnail">
@@ -89,7 +89,7 @@
         <div class="col-md-8">
           <div class="radio">
             <label>
-              <input type="radio" name="flavor" value="lipstick">
+              <input type="radio" name="stock" id="lipstick" value="">
                 <h4>NYX Matte Lipstick        Ksh.1500</h4>
             </label>
           </div>
@@ -105,7 +105,7 @@
      <div class="col-md-8">
        <div class="radio">
          <label>
-           <input type="radio" name="flavor" value="lipstick">
+           <input type="radio" name="stock" id="mascara" value="">
              <h4>MAC Smudge-proof Mascara        Ksh.3000</h4>
          </label>
        </div>
@@ -121,7 +121,7 @@
   <div class="col-md-8">
     <div class="radio">
       <label>
-        <input type="radio" name="flavor" value="lipstick">
+        <input type="radio" name="stock" id="foundation" value="">
           <h4>Liquid foundation        Ksh.5000</h4>
       </label>
     </div>
@@ -152,7 +152,7 @@
                 </div>
             </div>
             <div class="form-group">
-              <label for="address" class="control-label col-sm-4">Email:</label>
+              <label for="email" class="control-label col-sm-4">Email:</label>
                 <div class="col-sm-6">
                   <input type="email" id="email" value="" class="form-control" placeholder="Email Address:">
                 </div>
@@ -170,5 +170,18 @@
       </div>
     </div>
   </section>
+  <!-- End of form -->
+  <div class="receipt">
+    <h2>Hi, <span class="fullname"></span></h2>
+      <p>Your purchase has been Successful!</p>
+      <p> Here are your purchase details: </p>
+      <ul>
+        <li>Name:<span class="fullname"></span></li>
+        <li>Address: <span class="address"></span></li>
+        <li>Email: <span class="email"></span></li>
+        <li>Item purchased: <span class="stock"></span></li>
+      </ul>
+
+  </div>
 </body>
 </html>

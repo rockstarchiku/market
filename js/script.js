@@ -7,7 +7,7 @@ $(document).ready(function() {
     var address = $("#address").val();
     var email = $("#email").val();
 
-
+    var item = $('input[name=stock]:checked').val();
 
     $(".fullname").text(fullName);
     $(".address").text(address);
