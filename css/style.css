@@ -1,6 +1,5 @@
 .jumbotron{
   background-image: url("http://www.parfumpassion.eu/wp-content/uploads/2017/02/a1.jpg");
-  /*background-repeat: no-repeat;*/
   height: 350px;
   margin-bottom: 0px;
 }
@@ -12,9 +11,18 @@
 .thumbnail{
   text-align: center;
 }
+.navbar{
+  border-radius: 0px;
+}
 .radio{
   display: inline;
 }
 .panel-footer{
   text-align: center;
+}
+.receipt{
+  display: none;
+}
+li{
+  list-style: none;
 }

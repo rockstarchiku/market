@@ -128,37 +128,41 @@
                   <input type="text" id="email" value="" class="form-control" placeholder="Email Address">
                 </div>
             </div>
-
-            <div>Choose option:
-              <input type="radio" name="user_options" value="NYX Matte Lipstick  Ksh.1500" />NYX Matte Lipstick  Ksh.1500
-              <input type="radio" name="user_options" value="MAC Smudge-proof Mascara  Ksh.3000" /> MAC Smudge-proof Mascara  Ksh.3000
-              <input type="radio" name="user_options" value="Liquid foundation  Ksh.5000" /> Liquid foundation  Ksh.5000
-            </div>
-
+              <div class="form-group">
+                <label for="option" class="control-label col-sm-4">What will you buy today?</label>
+                  <div class="col-sm-6">
+                    <ul>
+                      <li><input type="radio" name="user_options" value="NYX Matte Lipstick  Ksh.1500" />NYX Matte Lipstick  Ksh.1500</li>
+                      <li><input type="radio" name="user_options" value="MAC Smudge-proof Mascara Ksh.3000" /> MAC Smudge-proof Mascara  Ksh.3000</li>
+                      <li><input type="radio" name="user_options" value="Liquid foundation  Ksh.5000" /> Liquid foundation  Ksh.5000</li>
+                    </ul>
+                  </div>
+                </div>
             <div class="form-group">
               <div class="col-sm-offset-4 col-sm-8">
                 <button type="submit" class="btn btn-default">Submit</button>
               </div>
             </div>
           </form>
-          </div>
         </div>
-        <div class="panel-footer">Created by Joyce Ngamau</div>
+
+  <!-- End of form -->
+      <div class="receipt">
+        <div class="col-sm-6">
+          <h2>Hi, <span class="fullname"></span></h2>
+            <p>Your purchase has been Successful!</p>
+            <p> Here are your purchase details: </p>
+            <ul>
+              <li>Name:<span class="fullname"></span></li>
+              <li>Address: <span class="address"></span></li>
+              <li>Email: <span class="email"></span></li>
+              <li>Item purchased: <span class="radio"></span></li>
+            </ul>
+          </div>
+      </div>
       </div>
     </div>
-  </section>
-  <!-- End of form -->
-  <div class="receipt">
-    <h2>Hi, <span class="fullname"></span></h2>
-      <p>Your purchase has been Successful!</p>
-      <p> Here are your purchase details: </p>
-      <ul>
-        <li>Name:<span class="fullname"></span></li>
-        <li>Address: <span class="address"></span></li>
-        <li>Email: <span class="email"></span></li>
-        <li>Item purchased: <span class="radio"></span></li>
-      </ul>
-
   </div>
+  </section>
 </body>
 </html>
