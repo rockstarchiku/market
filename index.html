@@ -35,10 +35,6 @@
         <li><a href="#prices">Prices</a></li>
         <li><a href="#order">Order</a></li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
     </div>
   </nav>
   <!-- End of Nav Bar -->
@@ -84,46 +80,21 @@
           <div class="col-md-4">
           <div class="thumbnail">
             <img src="http://www.thirteenthoughts.com/wp-content/uploads/2013/10/NYX-matte-lipsticks-review-and-swatches-555x388.jpg" alt="">
+              <h4>NYX Matte Lipstick        Ksh.1500</h4>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="radio">
-            <label>
-              <input type="radio" name="stock" id="lipstick" value="">
-                <h4>NYX Matte Lipstick        Ksh.1500</h4>
-            </label>
-          </div>
-       </div>
-     </div>
 
-     <div class="row">
        <div class="col-md-4">
        <div class="thumbnail">
          <img src="https://hips.hearstapps.com/cos.h-cdn.co/assets/16/28/1468443484-mascaras-lede-3.jpg" alt="">
+          <h4>MAC Smudge-proof Mascara        Ksh.3000</h4>
        </div>
      </div>
-     <div class="col-md-8">
-       <div class="radio">
-         <label>
-           <input type="radio" name="stock" id="mascara" value="">
-             <h4>MAC Smudge-proof Mascara        Ksh.3000</h4>
-         </label>
-       </div>
-    </div>
-  </div>
 
-  <div class="row">
     <div class="col-md-4">
     <div class="thumbnail">
       <img src="http://makeupinsession.com/wp-content/uploads/2015/01/hqdefault.jpg" alt="">
-    </div>
-  </div>
-  <div class="col-md-8">
-    <div class="radio">
-      <label>
-        <input type="radio" name="stock" id="foundation" value="">
-          <h4>Liquid foundation        Ksh.5000</h4>
-      </label>
+        <h4>Liquid foundation        Ksh.5000</h4>
     </div>
   </div>
   </div>
@@ -131,7 +102,7 @@
 <!-- End of prices section -->
 <section id="order" class="section">
   <h1> Order</h1>
-  <div class="col-md-12">
+  <div class="col-sm-12">
     <div class="panel panel-default">
       <div class="panel-heading">
         <h3>User Details</h3>
@@ -142,24 +113,30 @@
             <div class="form-group">
               <label for="fullname" class="control-label col-sm-4">Full Name</label>
                 <div class="col-sm-6">
-                  <input type="text" id="fullname" value="" class="form-control" placeholder="Enter Full name:">
+                  <input type="text" id="fullname" value="" class="form-control" placeholder="Full name">
                 </div>
             </div>
             <div class="form-group">
               <label for="address" class="control-label col-sm-4">Address</label>
                 <div class="col-sm-6">
-                  <input type="text" id="address" value="" class="form-control" placeholder="Physical Address:">
+                  <input type="text" id="address" value="" class="form-control" placeholder="Physical Address">
                 </div>
             </div>
             <div class="form-group">
               <label for="email" class="control-label col-sm-4">Email:</label>
                 <div class="col-sm-6">
-                  <input type="email" id="email" value="" class="form-control" placeholder="Email Address:">
+                  <input type="text" id="email" value="" class="form-control" placeholder="Email Address">
                 </div>
             </div>
 
+            <div>Choose option:
+              <input type="radio" name="user_options" value="NYX Matte Lipstick  Ksh.1500" />NYX Matte Lipstick  Ksh.1500
+              <input type="radio" name="user_options" value="MAC Smudge-proof Mascara  Ksh.3000" /> MAC Smudge-proof Mascara  Ksh.3000
+              <input type="radio" name="user_options" value="Liquid foundation  Ksh.5000" /> Liquid foundation  Ksh.5000
+            </div>
+
             <div class="form-group">
-              <div class="col-sm-offset-4 col-sm-10">
+              <div class="col-sm-offset-4 col-sm-8">
                 <button type="submit" class="btn btn-default">Submit</button>
               </div>
             </div>
@@ -179,7 +156,7 @@
         <li>Name:<span class="fullname"></span></li>
         <li>Address: <span class="address"></span></li>
         <li>Email: <span class="email"></span></li>
-        
+        <li>Item purchased: <span class="radio"></span></li>
       </ul>
 
   </div>
