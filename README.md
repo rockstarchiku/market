@@ -1,8 +1,8 @@
-#Online Market
+# Online Market
 
 Create an online shop where the user enters their details in the form and receives a receipt showing their purchase.
 
-##Purpose of the Project
+## Purpose of the Project
 Use HTML and JavaScript to create a form and produce a receipt.
 
 ## License
